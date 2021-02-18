@@ -1,4 +1,4 @@
-package com.johnnyrutkowski.springtutorials;
+package com.johnnyrutkowski.springtutorials.employee;
 
 import java.util.List;
 import java.util.stream.Collectors;

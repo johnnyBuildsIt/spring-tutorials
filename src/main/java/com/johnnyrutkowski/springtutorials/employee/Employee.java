@@ -1,4 +1,4 @@
-package com.johnnyrutkowski.springtutorials;
+package com.johnnyrutkowski.springtutorials.employee;
 
 import java.util.Objects;
 
@@ -7,14 +7,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-class Employee {
+public class Employee {
 
     private @Id @GeneratedValue Long id;
     private String firstName;
     private String lastName;
     private String role;
 
-    Employee(String firstName, String lastName, String role) {
+    public Employee(String firstName, String lastName, String role) {
 
         this.firstName = firstName;
         this.lastName = lastName;

@@ -1,4 +1,4 @@
-package com.johnnyrutkowski.springtutorials;
+package com.johnnyrutkowski.springtutorials.employee;
 
 class EmployeeNotFoundException extends RuntimeException {
 
